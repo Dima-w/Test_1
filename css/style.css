@@ -1,0 +1,307 @@
+*{ 
+	-webkit-box-sizing: border-box; 
+	        box-sizing: border-box;
+}
+body{
+  	margin: 0;
+  	padding: 0;
+  	font-family: Arial;
+  	background: #E5E5E5;
+}
+p{
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+h1{
+	font-size: 16px;
+	margin: 0;
+	padding:  5px 0 5px 0;
+}
+.main-box{
+	background: #f5f5f7;
+	max-width: 750px;
+	padding: 15px 15px 15px 15px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.flex-end{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: end;
+	    -ms-flex-pack: end;
+	        justify-content: flex-end;
+}
+.person-information{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-pack: distribute;
+	    justify-content: space-around;
+}
+.person-information__foto{
+	position: relative;
+	z-index: 2;
+}
+.person-information__foto img{
+	width: 124px;
+	border-radius: 50%;
+}
+.person-information__selected-text{
+	background: rgba(255, 251, 200, 1);
+}
+span{
+	font-size: 12px;
+	color: #808080;
+}
+.person-information__selected-text{
+	margin-top: 5px;
+	border-radius: 5px;
+	border: 1px solid #DADADA;
+	padding: 5px 5px 5px 50px;
+	-webkit-transform: translate(-50px,0);
+	    -ms-transform: translate(-50px,0);
+	        transform: translate(-50px,0);
+}
+.person-information__selected-text p{
+	margin-left: 3px;		
+}
+.service-information{
+	width: 350px;
+}
+.service-information__services{
+ 	margin-right: 20px; 
+}
+hr{
+	border: none;
+	height: 0;
+	padding: 0;
+	border-top: 1px solid #DADADA;
+}
+.service-information__provision-ervices{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+}
+.numbers p{
+	margin-right: 25px;
+	font-weight: 700;
+}
+.service-information__manual-booking{
+	width: 65%;
+	background: #B1E19B;
+	padding: 5px 5px 5px 5px;
+	border-radius: 0px 5px 5px 0px;
+	border-left-color: rgba(51, 51, 51, 0.2);
+    border-left-style: solid;
+    border-left-width: 1px;
+    margin-bottom: 5px;
+}
+.service-information__package-tours{
+	position: relative;
+	width: 16%;
+	background: #ACE2F8;
+	padding: 5px 5px 5px 5px;
+	border-radius: 0px 5px 5px 0px;
+	border-left-color: rgba(51, 51, 51, 0.2);
+    border-left-style: solid;
+    border-left-width: 1px;
+    margin-bottom: 5px;
+}
+.service-information__package-tours p{
+	white-space: nowrap;
+}
+.service-information__hotels{
+	width: 10%;
+	background: #ACE2F8;
+	padding: 5px 5px 5px 5px;
+	border-radius: 0px 5px 5px 0px;
+	border-left-color: rgba(51, 51, 51, 0.2);
+    border-left-style: solid;
+    border-left-width: 1px;
+}
+.service-information__all-services p {
+	font-size: 18px;
+	font-weight: 600;
+}
+.service-information__big-number p{
+	font-size: 18px;
+	margin-right: 20px;
+	font-weight: 600;
+}
+.head-reviews{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	margin-top: 20px;
+}
+.head-reviews__title{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.head-reviews__title p{
+	font-size: 18px;
+    font-weight: 600;
+    margin-right: 10px;
+}
+.head-reviews__title a{
+	-ms-flex-item-align: end;
+	    align-self: flex-end;
+	color: #005DA1;
+}
+.head-reviews__activity{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+.head-reviews__like, .head-reviews__comment{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+}
+.head-reviews__like img, .head-reviews__comment img{
+	width: 14px;
+	height: 14px;
+	margin-right: 5px;
+}
+.head-reviews__like p, .head-reviews__comment p{
+	-ms-flex-item-align: start;
+	    align-self: flex-start;
+}
+.head-reviews__like{
+	margin-right: 20px;
+}
+.reviews{
+	margin-top: 12px;
+}
+.reviews__messages{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: baseline;
+	    -ms-flex-align: baseline;
+	        align-items: baseline;
+}
+.reviews__messages p{
+	font-weight: 600;
+	margin-right: 10px;
+}
+.reviews__text-message{
+	margin-top: 3px;
+	width: 100%;
+	padding: 25px 15px 18px 35px;
+	background: url(../img/background-message.png) top left no-repeat;
+	background-size: 100% 100%;
+}
+.sending-messages{
+	margin-top: 35px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+}
+.comment-input{
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	width: 100%;
+}
+.sending-messages input[type="text"]{
+	width: 49%;
+	border: 1px solid #000000;
+	border-radius: 3px;
+	height: 50px;
+	margin-bottom: 25px;
+	text-align: center;
+}
+.sending-messages button{
+	width: 280px;
+	height: 43px;
+	margin: 0 auto;
+	border: 0;
+	border-radius: 25px;
+	background: #FDD639;
+	font-weight: 600;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+@media screen and (max-width: 850px) {
+	.main-box{
+		width: 600px;
+	}
+}
+@media screen and (max-width: 700px) {
+	.main-box{
+		width: 500px;
+	}
+}
+@media screen and (max-width: 570px) {
+	.main-box{
+		width: 420px;
+	}
+	.reviews__text-message{
+		padding: 25px 5px 15px 10px;
+	}
+}
+@media screen and (max-width: 570px) {
+	.main-box{
+		width: 420px;
+	}
+	.reviews__text-message{
+		padding: 25px 5px 15px 10px;
+	}
+	.comment-input{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.sending-messages input[type="text"]{
+		width: 100%;
+	}
+}
+@media screen and (max-width: 470px) {
+	.main-box{
+		width: 360px;
+	}
+	.reviews__text-message{
+		padding: 25px 5px 15px 10px;
+	}
+	.head-reviews{
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+	}
+	.head-reviews__title, .head-reviews__activity{
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+	.person-information__foto{
+		-ms-flex-item-align:	end;
+		    align-self:	flex-end;
+		margin-bottom: -10px;
+	}
+	.service-information{
+		margin-top: 15px;
+	}
+}
